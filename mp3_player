@@ -1,0 +1,20 @@
+
+<style>
+    #music {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: 80px;
+        transition: 0.5s width;
+    }
+
+    #music:hover {
+        width: 360px;
+    }
+</style>
+
+<!-- Replace these two URLs with .ogg and .mp3 versions of the song/radio station you want to play. If you don't have one or the other, you can just remove it. -->
+<audio controls="controls" id="music" loop="loop">
+    <source src="https://lainon.life/radio/cyberia.ogg" type="audio/ogg"/>
+    <source src="https://lainon.life/radio/cyberia.mp3" type="audio/mpeg"/>
+</audio>
